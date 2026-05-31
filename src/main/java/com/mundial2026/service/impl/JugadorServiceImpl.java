@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.mundial2026.exception.ResourceNotFoundException;
 import com.mundial2026.model.entity.Jugador;
 import com.mundial2026.repository.JugadorRepository;
 import com.mundial2026.service.JugadorService;
@@ -24,7 +25,8 @@ public class JugadorServiceImpl implements JugadorService{
 
     @Override
     public Jugador obtenerPorId(Long id) {
-        return jugadorRepository.findById(id).orElseThrow();
+        return jugadorRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Jugador no encontrado con id: " + id));
     }
 
     @Override

@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.mundial2026.exception.ResourceNotFoundException;
 import com.mundial2026.model.entity.Partido;
 import com.mundial2026.repository.PartidoRepository;
 import com.mundial2026.service.PartidoService;
@@ -24,7 +25,8 @@ public class PartidoServiceImpl implements PartidoService{
 
     @Override
     public Partido obtenerPorId(Long id) {
-        return partidoRepository.findById(id).orElseThrow();
+        return partidoRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Partido no encontrado con id: " + id));
     }
 
     @Override

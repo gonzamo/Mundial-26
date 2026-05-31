@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.mundial2026.exception.ResourceNotFoundException;
 import com.mundial2026.model.entity.Grupo;
 import com.mundial2026.repository.GrupoRepository;
 import com.mundial2026.service.GrupoService;
@@ -23,7 +24,8 @@ public class GrupoServiceImpl implements GrupoService{
 
     @Override
     public Grupo obtenerPorId(Long id) {
-        return grupoRepository.findById(id).orElseThrow();
+        return grupoRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Grupo no encontrado con id: " + id));
     }
 
     @Override

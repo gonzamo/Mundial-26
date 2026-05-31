@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.mundial2026.exception.ResourceNotFoundException;
 import com.mundial2026.model.entity.Estadio;
 import com.mundial2026.repository.EstadioRepository;
 import com.mundial2026.service.EstadioService;
@@ -24,7 +25,8 @@ public class EstadioServiceImpl implements EstadioService{
 
     @Override
     public Estadio obtenerPorId(Long id) {
-        return estadioRepository.findById(id).orElseThrow();
+        return estadioRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Estadio no encontrado con id: " + id));
     }
 
     @Override

@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
+import com.mundial2026.exception.ResourceNotFoundException;
 import com.mundial2026.model.entity.Equipo;
 import com.mundial2026.repository.EquipoRepository;
 import com.mundial2026.service.EquipoService;
@@ -24,7 +25,8 @@ public class EquipoServiceImpl implements EquipoService{
 
     @Override
     public Equipo obtenerPorId(Long id) {
-        return equipoRepository.findById(id).orElseThrow();
+        return equipoRepository.findById(id)
+                .orElseThrow(() -> new ResourceNotFoundException("Equipo no encontrado con id: " + id));
     }
 
     @Override
