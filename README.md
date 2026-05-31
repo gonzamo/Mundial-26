@@ -13,8 +13,12 @@ Una aplicación backend que permite consultar y gestionar toda la información d
 ## ¿En qué punto estamos?
 
 - ✅ Proyecto creado y configurado
-- ✅ Conexión a base de datos funcionando
-- ✅ Servidor arrancando correctamente
-- 🔄 Creando los modelos de datos (equipos, jugadores, partidos...)
+- ✅ Conexión a base de datos MariaDB funcionando
+- ✅ Servidor arrancando correctamente en puerto 8080
+- ✅ 5 entidades creadas (Estadio, Grupo, Equipo, Jugador, Partido)
+- ✅ 3 enums creados (EstadoPartido, FasePartido, PosicionJugador)
+- ✅ 5 tablas generadas automáticamente en la base de datos
+- ✅ 5 repositorios JPA creados
+- ✅ 5 servicios creados (interfaz + implementación)
 
 ---
