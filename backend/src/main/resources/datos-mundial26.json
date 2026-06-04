@@ -1,0 +1,450 @@
+{
+    "grupos": [
+        {
+            "letra": "A",
+            "equipos": [
+                {
+                    "nombre": "México",
+                    "pais": "México",
+                    "entrenador": "Javier Aguirre",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Mexico_national_football_team_crest.svg"
+                },
+                {
+                    "nombre": "Sudáfrica",
+                    "pais": "Sudáfrica",
+                    "entrenador": "Hugo Broos",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/nine/SAFA_crest.svg"
+                },
+                {
+                    "nombre": "Corea del Sur",
+                    "pais": "Corea del Sur",
+                    "entrenador": "Hong Myung-bo",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/fifty/Korea_Football_Association.svg"
+                },
+                {
+                    "nombre": "República Checa",
+                    "pais": "República Checa",
+                    "entrenador": "Ivan Hasek",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Czech_Football_Association_crest.svg"
+                }
+            ]
+        },
+        {
+            "letra": "B",
+            "equipos": [
+                {
+                    "nombre": "Canadá",
+                    "pais": "Canadá",
+                    "entrenador": "Jesse Marsch",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/forty/Canada_Soccer_Logo.svg"
+                },
+                {
+                    "nombre": "Bosnia y Herzegovina",
+                    "pais": "Bosnia y Herzegovina",
+                    "entrenador": "Sergej Barbarez",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/NSBiH_logo.svg"
+                },
+                {
+                    "nombre": "Catar",
+                    "pais": "Catar",
+                    "entrenador": "Marquez Lopez",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/sixty/Qatar_FA.svg"
+                },
+                {
+                    "nombre": "Suiza",
+                    "pais": "Suiza",
+                    "entrenador": "Murat Yakin",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/thirty/Switzerland_national_football_team_badge.svg"
+                }
+            ]
+        },
+        {
+            "letra": "C",
+            "equipos": [
+                {
+                    "nombre": "Brasil",
+                    "pais": "Brasil",
+                    "entrenador": "Carlo Ancelotti",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/41/CBF_logo.svg"
+                },
+                {
+                    "nombre": "Marruecos",
+                    "pais": "Marruecos",
+                    "entrenador": "Walid Regragui",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Morocco_national_football_team_Badge.svg"
+                },
+                {
+                    "nombre": "Haití",
+                    "pais": "Haití",
+                    "entrenador": "Marc Collat",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/fifty/Haiti_football_federation.svg"
+                },
+                {
+                    "nombre": "Escocia",
+                    "pais": "Escocia",
+                    "entrenador": "Steve Clarke",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Scotland_national_football_team_badge.svg"
+                }
+            ]
+        },
+        {
+            "letra": "D",
+            "equipos": [
+                {
+                    "nombre": "Estados Unidos",
+                    "pais": "Estados Unidos",
+                    "entrenador": "Mauricio Pochettino",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/nine/US_Soccer_logo.svg"
+                },
+                {
+                    "nombre": "Paraguay",
+                    "pais": "Paraguay",
+                    "entrenador": "Gustavo Alfaro",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/APF_logo.svg"
+                },
+                {
+                    "nombre": "Australia",
+                    "pais": "Australia",
+                    "entrenador": "Tony Popovic",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Football_Federation_Australia_logo.svg"
+                },
+                {
+                    "nombre": "Turquía",
+                    "pais": "Turquía",
+                    "entrenador": "Vincenzo Montella",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/TFF_logo.svg"
+                }
+            ]
+        },
+        {
+            "letra": "E",
+            "equipos": [
+                {
+                    "nombre": "Alemania",
+                    "pais": "Alemania",
+                    "entrenador": "Julian Nagelsmann",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/DFB-Logo.svg"
+                },
+                {
+                    "nombre": "Curazao",
+                    "pais": "Curazao",
+                    "entrenador": "Enrico Dueño",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/FFK_logo.svg"
+                },
+                {
+                    "nombre": "Costa de Marfil",
+                    "pais": "Costa de Marfil",
+                    "entrenador": "Emerse Fae",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/FIF_logo.svg"
+                },
+                {
+                    "nombre": "Ecuador",
+                    "pais": "Ecuador",
+                    "entrenador": "Sebastián Beccacece",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Federaci%C3%B3n_Ecuatoriana_de_F%C3%BAtbol_logo.svg"
+                }
+            ]
+        },
+        {
+            "letra": "F",
+            "equipos": [
+                {
+                    "nombre": "Países Bajos",
+                    "pais": "Países Bajos",
+                    "entrenador": "Ronald Koeman",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/KNVB_logo.svg"
+                },
+                {
+                    "nombre": "Japón",
+                    "pais": "Japón",
+                    "entrenador": "Hajime Moriyasu",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Japan_national_football_team_crest.svg"
+                },
+                {
+                    "nombre": "Suecia",
+                    "pais": "Suecia",
+                    "entrenador": "Jon Dahl Tomasson",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/SvFF_logo.svg"
+                },
+                {
+                    "nombre": "Túnez",
+                    "pais": "Túnez",
+                    "entrenador": "Jalel Kadri",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/FTF_logo.svg"
+                }
+            ]
+        },
+        {
+            "letra": "G",
+            "equipos": [
+                {
+                    "nombre": "Bélgica",
+                    "pais": "Bélgica",
+                    "entrenador": "Rudi Garcia",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/67/Royal_Belgian_Football_Association_logo.svg"
+                },
+                {
+                    "nombre": "Egipto",
+                    "pais": "Egipto",
+                    "entrenador": "Hossam Hassan",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/EFA_logo.svg"
+                },
+                {
+                    "nombre": "Irán",
+                    "pais": "Irán",
+                    "entrenador": "Amir Ghalenoei",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/nine/Football_Federation_IR_Iran.svg"
+                },
+                {
+                    "nombre": "Nueva Zelanda",
+                    "pais": "Nueva Zelanda",
+                    "entrenador": "Darren Bazeley",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c8/New_Zealand_Football_Logo.svg"
+                }
+            ]
+        },
+        {
+            "letra": "H",
+            "equipos": [
+                {
+                    "nombre": "España",
+                    "pais": "España",
+                    "entrenador": "Luis de la Fuente",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Spain_national_football_badge.svg"
+                },
+                {
+                    "nombre": "Cabo Verde",
+                    "pais": "Cabo Verde",
+                    "entrenador": "Bubista",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/FCBB_logo.svg"
+                },
+                {
+                    "nombre": "Arabia Saudí",
+                    "pais": "Arabia Saudí",
+                    "entrenador": "Hervé Renard",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Saudi_Arabia_national_football_team_logo.svg"
+                },
+                {
+                    "nombre": "Uruguay",
+                    "pais": "Uruguay",
+                    "entrenador": "Marcelo Bielsa",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/AUF_Logo.svg"
+                }
+            ]
+        },
+        {
+            "letra": "I",
+            "equipos": [
+                {
+                    "nombre": "Francia",
+                    "pais": "Francia",
+                    "entrenador": "Didier Deschamps",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/FFF_logo.svg"
+                },
+                {
+                    "nombre": "Senegal",
+                    "pais": "Senegal",
+                    "entrenador": "Aliou Cissé",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Logo_FSF.svg"
+                },
+                {
+                    "nombre": "Irak",
+                    "pais": "Irak",
+                    "entrenador": "Jesus Casas",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/i/iq/IFA_logo.svg"
+                },
+                {
+                    "nombre": "Noruega",
+                    "pais": "Noruega",
+                    "entrenador": "Stale Solbakken",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/n/nff/NFF_logo.svg"
+                }
+            ]
+        },
+        {
+            "letra": "J",
+            "equipos": [
+                {
+                    "nombre": "Argentina",
+                    "pais": "Argentina",
+                    "entrenador": "Lionel Scaloni",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c1/AFA_logo_2014.svg"
+                },
+                {
+                    "nombre": "Argelia",
+                    "pais": "Argelia",
+                    "entrenador": "Vladimir Petkovic",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/FAF_logo.svg"
+                },
+                {
+                    "nombre": "Austria",
+                    "pais": "Austria",
+                    "entrenador": "Ralf Rangnick",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/OeFB_logo.svg"
+                },
+                {
+                    "nombre": "Jordania",
+                    "pais": "Jordania",
+                    "entrenador": "Hussein Ammouta",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/j/jo/JFA_logo.svg"
+                }
+            ]
+        },
+        {
+            "letra": "K",
+            "equipos": [
+                {
+                    "nombre": "Portugal",
+                    "pais": "Portugal",
+                    "entrenador": "Roberto Martínez",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/73/Fpf_logo.svg"
+                },
+                {
+                    "nombre": "R.D. Congo",
+                    "pais": "República Democrática del Congo",
+                    "entrenador": "Sébastien Desabre",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/FECOFA_logo.svg"
+                },
+                {
+                    "nombre": "Uzbekistán",
+                    "pais": "Uzbekistán",
+                    "entrenador": "Srecko Katanec",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/u/uz/UFF_logo.svg"
+                },
+                {
+                    "nombre": "Colombia",
+                    "pais": "Colombia",
+                    "entrenador": "Néstor Lorenzo",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/sixty/FCF_logo.svg"
+                }
+            ]
+        },
+        {
+            "letra": "L",
+            "equipos": [
+                {
+                    "nombre": "Inglaterra",
+                    "pais": "Inglaterra",
+                    "entrenador": "Lee Carsley",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Three_Lions_on_a_shirt.svg"
+                },
+                {
+                    "nombre": "Croacia",
+                    "pais": "Croacia",
+                    "entrenador": "Zlatko Dalic",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/83/HNS_crest.svg"
+                },
+                {
+                    "nombre": "Ghana",
+                    "pais": "Ghana",
+                    "entrenador": "Otto Addo",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Ghana_Football_Association_logo.svg"
+                },
+                {
+                    "nombre": "Panamá",
+                    "pais": "Panamá",
+                    "entrenador": "Thomas Christiansen",
+                    "escudoUrl": "https://upload.wikimedia.org/wikipedia/commons/p/pa/FEPAFUT_logo.svg"
+                }
+            ]
+        }
+    ],
+    "estadios": [
+        {
+            "nombre": "Estadio Azteca",
+            "ciudad": "Ciudad de México",
+            "pais": "México",
+            "capacidad": 87520
+        },
+        {
+            "nombre": "Estadio Akron",
+            "ciudad": "Guadalajara",
+            "pais": "México",
+            "capacidad": 48000
+        },
+        {
+            "nombre": "Estadio BBVA",
+            "ciudad": "Monterrey",
+            "pais": "México",
+            "capacidad": 53500
+        },
+        {
+            "nombre": "BMO Field",
+            "ciudad": "Toronto",
+            "pais": "Canadá",
+            "capacidad": 45730
+        },
+        {
+            "nombre": "BC Place",
+            "ciudad": "Vancouver",
+            "pais": "Canadá",
+            "capacidad": 54500
+        },
+        {
+            "nombre": "AT&T Stadium",
+            "ciudad": "Dallas",
+            "pais": "Estados Unidos",
+            "capacidad": 92960
+        },
+        {
+            "nombre": "MetLife Stadium",
+            "ciudad": "Nueva York",
+            "pais": "Estados Unidos",
+            "capacidad": 87150
+        },
+        {
+            "nombre": "SoFi Stadium",
+            "ciudad": "Los Ángeles",
+            "pais": "Estados Unidos",
+            "capacidad": 70000
+        },
+        {
+            "nombre": "Hard Rock Stadium",
+            "ciudad": "Miami",
+            "pais": "Estados Unidos",
+            "capacidad": 65326
+        },
+        {
+            "nombre": "NRG Stadium",
+            "ciudad": "Houston",
+            "pais": "Estados Unidos",
+            "capacidad": 72220
+        },
+        {
+            "nombre": "Levi's Stadium",
+            "ciudad": "San Francisco",
+            "pais": "Estados Unidos",
+            "capacidad": 68500
+        },
+        {
+            "nombre": "Lincoln Financial Field",
+            "ciudad": "Filadelfia",
+            "pais": "Estados Unidos",
+            "capacidad": 69796
+        },
+        {
+            "nombre": "Arrowhead Stadium",
+            "ciudad": "Kansas City",
+            "pais": "Estados Unidos",
+            "capacidad": 76416
+        },
+        {
+            "nombre": "Lumen Field",
+            "ciudad": "Seattle",
+            "pais": "Estados Unidos",
+            "capacidad": 69000
+        },
+        {
+            "nombre": "Mercedes-Benz Stadium",
+            "ciudad": "Atlanta",
+            "pais": "Estados Unidos",
+            "capacidad": 71000
+        },
+        {
+            "nombre": "Gillette Stadium",
+            "ciudad": "Boston",
+            "pais": "Estados Unidos",
+            "capacidad": 65878
+        }
+    ]
+}
