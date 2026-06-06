@@ -36,9 +36,6 @@ public class Equipo {
     private Long id;
 
     @Column(nullable = false)
-    private String nombre;
-
-    @Column(nullable = false)
     private String pais;
 
     @Column(nullable = false)

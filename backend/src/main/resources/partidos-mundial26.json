@@ -1,0 +1,508 @@
+{
+    "partidos": [
+        {
+            "grupo": "A",
+            "equipoLocal": "México",
+            "equipoVisitante": "Sudáfrica",
+            "fecha": "2026-06-11T21:00:00",
+            "estadio": "Estadio Azteca"
+        },
+        {
+            "grupo": "A",
+            "equipoLocal": "Corea del Sur",
+            "equipoVisitante": "República Checa",
+            "fecha": "2026-06-12T04:00:00",
+            "estadio": "Estadio Akron"
+        },
+        {
+            "grupo": "B",
+            "equipoLocal": "Canadá",
+            "equipoVisitante": "Bosnia y Herzegovina",
+            "fecha": "2026-06-12T21:00:00",
+            "estadio": "BMO Field"
+        },
+        {
+            "grupo": "D",
+            "equipoLocal": "Estados Unidos",
+            "equipoVisitante": "Paraguay",
+            "fecha": "2026-06-13T03:00:00",
+            "estadio": "MetLife Stadium"
+        },
+        {
+            "grupo": "B",
+            "equipoLocal": "Catar",
+            "equipoVisitante": "Suiza",
+            "fecha": "2026-06-13T21:00:00",
+            "estadio": "BMO Field"
+        },
+        {
+            "grupo": "C",
+            "equipoLocal": "Brasil",
+            "equipoVisitante": "Marruecos",
+            "fecha": "2026-06-14T00:00:00",
+            "estadio": "SoFi Stadium"
+        },
+        {
+            "grupo": "C",
+            "equipoLocal": "Haití",
+            "equipoVisitante": "Escocia",
+            "fecha": "2026-06-14T03:00:00",
+            "estadio": "Hard Rock Stadium"
+        },
+        {
+            "grupo": "D",
+            "equipoLocal": "Australia",
+            "equipoVisitante": "Turquía",
+            "fecha": "2026-06-14T06:00:00",
+            "estadio": "Levi's Stadium"
+        },
+        {
+            "grupo": "E",
+            "equipoLocal": "Alemania",
+            "equipoVisitante": "Curazao",
+            "fecha": "2026-06-14T19:00:00",
+            "estadio": "AT&T Stadium"
+        },
+        {
+            "grupo": "F",
+            "equipoLocal": "Países Bajos",
+            "equipoVisitante": "Japón",
+            "fecha": "2026-06-14T22:00:00",
+            "estadio": "Lincoln Financial Field"
+        },
+        {
+            "grupo": "E",
+            "equipoLocal": "Costa de Marfil",
+            "equipoVisitante": "Ecuador",
+            "fecha": "2026-06-15T01:00:00",
+            "estadio": "NRG Stadium"
+        },
+        {
+            "grupo": "F",
+            "equipoLocal": "Suecia",
+            "equipoVisitante": "Túnez",
+            "fecha": "2026-06-15T04:00:00",
+            "estadio": "Arrowhead Stadium"
+        },
+        {
+            "grupo": "H",
+            "equipoLocal": "España",
+            "equipoVisitante": "Cabo Verde",
+            "fecha": "2026-06-15T18:00:00",
+            "estadio": "Mercedes-Benz Stadium"
+        },
+        {
+            "grupo": "G",
+            "equipoLocal": "Bélgica",
+            "equipoVisitante": "Egipto",
+            "fecha": "2026-06-15T21:00:00",
+            "estadio": "Lumen Field"
+        },
+        {
+            "grupo": "H",
+            "equipoLocal": "Arabia Saudí",
+            "equipoVisitante": "Uruguay",
+            "fecha": "2026-06-16T00:00:00",
+            "estadio": "Gillette Stadium"
+        },
+        {
+            "grupo": "G",
+            "equipoLocal": "Irán",
+            "equipoVisitante": "Nueva Zelanda",
+            "fecha": "2026-06-16T03:00:00",
+            "estadio": "SoFi Stadium"
+        },
+        {
+            "grupo": "I",
+            "equipoLocal": "Francia",
+            "equipoVisitante": "Senegal",
+            "fecha": "2026-06-16T21:00:00",
+            "estadio": "MetLife Stadium"
+        },
+        {
+            "grupo": "I",
+            "equipoLocal": "Irak",
+            "equipoVisitante": "Noruega",
+            "fecha": "2026-06-17T00:00:00",
+            "estadio": "AT&T Stadium"
+        },
+        {
+            "grupo": "J",
+            "equipoLocal": "Argentina",
+            "equipoVisitante": "Argelia",
+            "fecha": "2026-06-17T03:00:00",
+            "estadio": "Arrowhead Stadium"
+        },
+        {
+            "grupo": "J",
+            "equipoLocal": "Austria",
+            "equipoVisitante": "Jordania",
+            "fecha": "2026-06-17T06:00:00",
+            "estadio": "AT&T Stadium"
+        },
+        {
+            "grupo": "K",
+            "equipoLocal": "Portugal",
+            "equipoVisitante": "R.D. Congo",
+            "fecha": "2026-06-17T19:00:00",
+            "estadio": "Gillette Stadium"
+        },
+        {
+            "grupo": "L",
+            "equipoLocal": "Inglaterra",
+            "equipoVisitante": "Croacia",
+            "fecha": "2026-06-17T22:00:00",
+            "estadio": "Hard Rock Stadium"
+        },
+        {
+            "grupo": "L",
+            "equipoLocal": "Ghana",
+            "equipoVisitante": "Panamá",
+            "fecha": "2026-06-18T01:00:00",
+            "estadio": "NRG Stadium"
+        },
+        {
+            "grupo": "K",
+            "equipoLocal": "Uzbekistán",
+            "equipoVisitante": "Colombia",
+            "fecha": "2026-06-18T04:00:00",
+            "estadio": "Levi's Stadium"
+        },
+        {
+            "grupo": "A",
+            "equipoLocal": "República Checa",
+            "equipoVisitante": "Sudáfrica",
+            "fecha": "2026-06-18T18:00:00",
+            "estadio": "Estadio BBVA"
+        },
+        {
+            "grupo": "B",
+            "equipoLocal": "Suiza",
+            "equipoVisitante": "Bosnia y Herzegovina",
+            "fecha": "2026-06-18T21:00:00",
+            "estadio": "BC Place"
+        },
+        {
+            "grupo": "B",
+            "equipoLocal": "Canadá",
+            "equipoVisitante": "Catar",
+            "fecha": "2026-06-19T00:00:00",
+            "estadio": "BMO Field"
+        },
+        {
+            "grupo": "A",
+            "equipoLocal": "México",
+            "equipoVisitante": "Corea del Sur",
+            "fecha": "2026-06-19T03:00:00",
+            "estadio": "Estadio Azteca"
+        },
+        {
+            "grupo": "D",
+            "equipoLocal": "Estados Unidos",
+            "equipoVisitante": "Australia",
+            "fecha": "2026-06-19T21:00:00",
+            "estadio": "Lumen Field"
+        },
+        {
+            "grupo": "C",
+            "equipoLocal": "Escocia",
+            "equipoVisitante": "Marruecos",
+            "fecha": "2026-06-20T00:00:00",
+            "estadio": "Lincoln Financial Field"
+        },
+        {
+            "grupo": "C",
+            "equipoLocal": "Brasil",
+            "equipoVisitante": "Haití",
+            "fecha": "2026-06-20T02:30:00",
+            "estadio": "Hard Rock Stadium"
+        },
+        {
+            "grupo": "D",
+            "equipoLocal": "Turquía",
+            "equipoVisitante": "Paraguay",
+            "fecha": "2026-06-20T05:00:00",
+            "estadio": "Arrowhead Stadium"
+        },
+        {
+            "grupo": "F",
+            "equipoLocal": "Países Bajos",
+            "equipoVisitante": "Suecia",
+            "fecha": "2026-06-20T19:00:00",
+            "estadio": "AT&T Stadium"
+        },
+        {
+            "grupo": "E",
+            "equipoLocal": "Alemania",
+            "equipoVisitante": "Costa de Marfil",
+            "fecha": "2026-06-20T22:00:00",
+            "estadio": "NRG Stadium"
+        },
+        {
+            "grupo": "E",
+            "equipoLocal": "Ecuador",
+            "equipoVisitante": "Curazao",
+            "fecha": "2026-06-21T02:00:00",
+            "estadio": "MetLife Stadium"
+        },
+        {
+            "grupo": "F",
+            "equipoLocal": "Túnez",
+            "equipoVisitante": "Japón",
+            "fecha": "2026-06-21T06:00:00",
+            "estadio": "Gillette Stadium"
+        },
+        {
+            "grupo": "H",
+            "equipoLocal": "España",
+            "equipoVisitante": "Arabia Saudí",
+            "fecha": "2026-06-21T18:00:00",
+            "estadio": "Mercedes-Benz Stadium"
+        },
+        {
+            "grupo": "G",
+            "equipoLocal": "Bélgica",
+            "equipoVisitante": "Irán",
+            "fecha": "2026-06-21T21:00:00",
+            "estadio": "Levi's Stadium"
+        },
+        {
+            "grupo": "H",
+            "equipoLocal": "Uruguay",
+            "equipoVisitante": "Cabo Verde",
+            "fecha": "2026-06-22T00:00:00",
+            "estadio": "BC Place"
+        },
+        {
+            "grupo": "G",
+            "equipoLocal": "Nueva Zelanda",
+            "equipoVisitante": "Egipto",
+            "fecha": "2026-06-22T03:00:00",
+            "estadio": "SoFi Stadium"
+        },
+        {
+            "grupo": "J",
+            "equipoLocal": "Argentina",
+            "equipoVisitante": "Austria",
+            "fecha": "2026-06-22T19:00:00",
+            "estadio": "AT&T Stadium"
+        },
+        {
+            "grupo": "I",
+            "equipoLocal": "Francia",
+            "equipoVisitante": "Irak",
+            "fecha": "2026-06-22T23:00:00",
+            "estadio": "Lincoln Financial Field"
+        },
+        {
+            "grupo": "I",
+            "equipoLocal": "Noruega",
+            "equipoVisitante": "Senegal",
+            "fecha": "2026-06-23T02:00:00",
+            "estadio": "Arrowhead Stadium"
+        },
+        {
+            "grupo": "J",
+            "equipoLocal": "Jordania",
+            "equipoVisitante": "Argelia",
+            "fecha": "2026-06-23T05:00:00",
+            "estadio": "NRG Stadium"
+        },
+        {
+            "grupo": "K",
+            "equipoLocal": "Portugal",
+            "equipoVisitante": "Uzbekistán",
+            "fecha": "2026-06-23T19:00:00",
+            "estadio": "Lumen Field"
+        },
+        {
+            "grupo": "L",
+            "equipoLocal": "Inglaterra",
+            "equipoVisitante": "Ghana",
+            "fecha": "2026-06-23T22:00:00",
+            "estadio": "Hard Rock Stadium"
+        },
+        {
+            "grupo": "L",
+            "equipoLocal": "Panamá",
+            "equipoVisitante": "Croacia",
+            "fecha": "2026-06-24T01:00:00",
+            "estadio": "MetLife Stadium"
+        },
+        {
+            "grupo": "K",
+            "equipoLocal": "Colombia",
+            "equipoVisitante": "R.D. Congo",
+            "fecha": "2026-06-24T04:00:00",
+            "estadio": "Gillette Stadium"
+        },
+        {
+            "grupo": "B",
+            "equipoLocal": "Bosnia y Herzegovina",
+            "equipoVisitante": "Catar",
+            "fecha": "2026-06-24T21:00:00",
+            "estadio": "BMO Field"
+        },
+        {
+            "grupo": "B",
+            "equipoLocal": "Suiza",
+            "equipoVisitante": "Canadá",
+            "fecha": "2026-06-24T21:00:00",
+            "estadio": "BC Place"
+        },
+        {
+            "grupo": "C",
+            "equipoLocal": "Escocia",
+            "equipoVisitante": "Brasil",
+            "fecha": "2026-06-25T00:00:00",
+            "estadio": "SoFi Stadium"
+        },
+        {
+            "grupo": "C",
+            "equipoLocal": "Marruecos",
+            "equipoVisitante": "Haití",
+            "fecha": "2026-06-25T03:00:00",
+            "estadio": "Levi's Stadium"
+        },
+        {
+            "grupo": "A",
+            "equipoLocal": "Sudáfrica",
+            "equipoVisitante": "Corea del Sur",
+            "fecha": "2026-06-25T03:00:00",
+            "estadio": "Estadio BBVA"
+        },
+        {
+            "grupo": "A",
+            "equipoLocal": "República Checa",
+            "equipoVisitante": "México",
+            "fecha": "2026-06-25T03:00:00",
+            "estadio": "Estadio Akron"
+        },
+        {
+            "grupo": "E",
+            "equipoLocal": "Ecuador",
+            "equipoVisitante": "Alemania",
+            "fecha": "2026-06-25T22:00:00",
+            "estadio": "NRG Stadium"
+        },
+        {
+            "grupo": "E",
+            "equipoLocal": "Curazao",
+            "equipoVisitante": "Costa de Marfil",
+            "fecha": "2026-06-25T22:00:00",
+            "estadio": "AT&T Stadium"
+        },
+        {
+            "grupo": "F",
+            "equipoLocal": "Japón",
+            "equipoVisitante": "Suecia",
+            "fecha": "2026-06-26T01:00:00",
+            "estadio": "Lincoln Financial Field"
+        },
+        {
+            "grupo": "F",
+            "equipoLocal": "Túnez",
+            "equipoVisitante": "Países Bajos",
+            "fecha": "2026-06-26T01:00:00",
+            "estadio": "Arrowhead Stadium"
+        },
+        {
+            "grupo": "D",
+            "equipoLocal": "Turquía",
+            "equipoVisitante": "Estados Unidos",
+            "fecha": "2026-06-26T04:00:00",
+            "estadio": "MetLife Stadium"
+        },
+        {
+            "grupo": "D",
+            "equipoLocal": "Paraguay",
+            "equipoVisitante": "Australia",
+            "fecha": "2026-06-26T04:00:00",
+            "estadio": "Lumen Field"
+        },
+        {
+            "grupo": "I",
+            "equipoLocal": "Senegal",
+            "equipoVisitante": "Irak",
+            "fecha": "2026-06-26T21:00:00",
+            "estadio": "Gillette Stadium"
+        },
+        {
+            "grupo": "I",
+            "equipoLocal": "Noruega",
+            "equipoVisitante": "Francia",
+            "fecha": "2026-06-26T21:00:00",
+            "estadio": "Hard Rock Stadium"
+        },
+        {
+            "grupo": "H",
+            "equipoLocal": "Uruguay",
+            "equipoVisitante": "España",
+            "fecha": "2026-06-27T02:00:00",
+            "estadio": "Estadio Akron"
+        },
+        {
+            "grupo": "H",
+            "equipoLocal": "Cabo Verde",
+            "equipoVisitante": "Arabia Saudí",
+            "fecha": "2026-06-27T02:00:00",
+            "estadio": "Mercedes-Benz Stadium"
+        },
+        {
+            "grupo": "G",
+            "equipoLocal": "Nueva Zelanda",
+            "equipoVisitante": "Bélgica",
+            "fecha": "2026-06-27T05:00:00",
+            "estadio": "SoFi Stadium"
+        },
+        {
+            "grupo": "G",
+            "equipoLocal": "Egipto",
+            "equipoVisitante": "Irán",
+            "fecha": "2026-06-27T05:00:00",
+            "estadio": "Levi's Stadium"
+        },
+        {
+            "grupo": "L",
+            "equipoLocal": "Croacia",
+            "equipoVisitante": "Ghana",
+            "fecha": "2026-06-27T23:00:00",
+            "estadio": "BC Place"
+        },
+        {
+            "grupo": "L",
+            "equipoLocal": "Panamá",
+            "equipoVisitante": "Inglaterra",
+            "fecha": "2026-06-27T23:00:00",
+            "estadio": "BMO Field"
+        },
+        {
+            "grupo": "K",
+            "equipoLocal": "Colombia",
+            "equipoVisitante": "Portugal",
+            "fecha": "2026-06-28T01:30:00",
+            "estadio": "NRG Stadium"
+        },
+        {
+            "grupo": "K",
+            "equipoLocal": "R.D. Congo",
+            "equipoVisitante": "Uzbekistán",
+            "fecha": "2026-06-28T01:30:00",
+            "estadio": "Mercedes-Benz Stadium"
+        },
+        {
+            "grupo": "J",
+            "equipoLocal": "Jordania",
+            "equipoVisitante": "Argentina",
+            "fecha": "2026-06-28T04:00:00",
+            "estadio": "AT&T Stadium"
+        },
+        {
+            "grupo": "J",
+            "equipoLocal": "Argelia",
+            "equipoVisitante": "Austria",
+            "fecha": "2026-06-28T04:00:00",
+            "estadio": "Arrowhead Stadium"
+        }
+    ]
+}

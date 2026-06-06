@@ -1,7 +1,7 @@
 package com.mundial2026.model.enums;
 
 public enum FasePartido {
-     GRUPOS,
+    GRUPOS,
     DIECISEISAVOS,
     OCTAVOS,
     CUARTOS,

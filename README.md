@@ -45,5 +45,6 @@ Una aplicación backend que permite consultar y gestionar toda la información d
 - ✅ Servicios con mensajes de error descriptivos
 - ✅ Documentación Swagger/OpenAPI integrada
 - ✅ Dependencias JWT añadidas
+- ✅ Carga inicial de todos los datos mediante JSON
 
 ---
