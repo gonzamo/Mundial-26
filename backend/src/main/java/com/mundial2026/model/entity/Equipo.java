@@ -3,6 +3,7 @@ package com.mundial2026.model.entity;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -51,7 +52,7 @@ public class Equipo {
     @JoinColumn(name = "grupo_id")
     private Grupo grupo;
 
-    @JsonIgnore
     @OneToMany(mappedBy = "equipo", fetch = FetchType.EAGER)
+    @JsonIgnoreProperties({"equipo"})
     private List<Jugador> jugadores;
 }

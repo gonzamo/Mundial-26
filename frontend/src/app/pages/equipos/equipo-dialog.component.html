@@ -1,0 +1,22 @@
+<div class="dialog-header">
+  <img [src]="equipo.escudoURL" [alt]="equipo.pais" class="dialog-escudo">
+  <div>
+    <h1>{{ equipo.pais }}</h1>
+    <p class="coach" *ngIf="equipo.entrenador">Entrenador: {{ equipo.entrenador }}</p>
+  </div>
+</div>
+
+<mat-card-content class="dialog-body">
+  <h2>Jugadores</h2>
+  <div class="players-list">
+    <div class="player-row" *ngFor="let jugador of equipo.jugadores">
+      <span class="player-dorsal">#{{ jugador.dorsal }}</span>
+      <span class="player-name">{{ jugador.nombre }}</span>
+      <span class="player-posicion {{ clasePosicion(jugador.posicion) }}">{{ jugador.posicion }}</span>
+    </div>
+  </div>
+</mat-card-content>
+
+<div class="dialog-actions">
+  <button mat-dialog-close class="close-btn">Cerrar</button>
+</div>

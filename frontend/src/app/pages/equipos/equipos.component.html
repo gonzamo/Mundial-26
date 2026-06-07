@@ -1,14 +1,31 @@
 <div class="equipos-container">
-    <h1>Selecciones del Mundial 2026</h1>
+  <h1>Selecciones del Mundial 2026</h1>
 
-    <div class="equipos-grid">
-        <mat-card *ngFor="let equipo of equipos" class="equipo-card">
-            <mat-card-header>
-                <mat-card-title>
-                    <img src={{equipo.escudoURL}} class="escudo">
-                    {{equipo.pais}}
-                    </mat-card-title>
-            </mat-card-header>
-        </mat-card>
-    </div>
+  <div class="search-bar">
+    <input
+      type="text"
+      placeholder="Buscar selección..."
+      [(ngModel)]="filtro"
+      class="search-input"
+    />
+  </div>
+
+  <div class="equipos-grid">
+    <mat-card *ngFor="let equipo of equiposFiltrados" class="equipo-card" (click)="abrirDialogo(equipo)">
+      <mat-card-header>
+        <mat-card-title>
+          <img [src]="equipo.escudoURL" [alt]="equipo.pais" class="escudo">
+          {{ equipo.pais }}
+        </mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <p class="entrenador" *ngIf="equipo.entrenador">
+          {{ equipo.entrenador }}
+        </p>
+        <p class="jugadores-count">
+          {{ equipo.jugadores?.length || 0 }} jugadores
+        </p>
+      </mat-card-content>
+    </mat-card>
+  </div>
 </div>

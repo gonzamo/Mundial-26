@@ -1,7 +1,7 @@
 .partidos-container {
   padding: 32px;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 80px auto 0;
 
   h1 {
     text-align: center;
@@ -9,6 +9,14 @@
     font-size: 28px;
     font-weight: 500;
     color: #1a237e;
+
+     &::before {
+      content: '';
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background: url('https://cdn.prod.website-files.com/68f550992570ca0322737dc2/69f4a666ff876f5a52a1b7ab_fifa-world-cup-2026-official-logo-footylogos.png') center/contain no-repeat;
+    }
   }
 }
 
