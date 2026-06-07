@@ -1,19 +1,21 @@
 <div class="login-container">
   <mat-card class="login-card">
     <mat-card-header>
-      <mat-card-title>🏆 Mundial 2026</mat-card-title>
-      <mat-card-subtitle>Inicia sesión para continuar</mat-card-subtitle>
+      <mat-card-title>Mundial 2026</mat-card-title>
+      <mat-card-subtitle>
+        {{ esRegistro ? 'Crea una cuenta' : 'Inicia sesión para continuar' }}
+      </mat-card-subtitle>
     </mat-card-header>
 
     <mat-card-content>
       <mat-form-field appearance="outline" class="full-width">
         <mat-label>Usuario</mat-label>
-        <input matInput [(ngModel)]="username">
+        <input matInput [(ngModel)]="username" (keyup.enter)="login()">
       </mat-form-field>
 
       <mat-form-field appearance="outline" class="full-width">
         <mat-label>Contraseña</mat-label>
-        <input matInput type="password" [(ngModel)]="password">
+        <input matInput type="password" [(ngModel)]="password" (keyup.enter)="login()">
       </mat-form-field>
 
       <p class="error" *ngIf="error">{{ error }}</p>
@@ -21,8 +23,15 @@
 
     <mat-card-actions>
       <button mat-raised-button color="primary" class="full-width" (click)="login()">
-        Iniciar sesión
+        {{ esRegistro ? 'Registrarse' : 'Iniciar sesión' }}
       </button>
+
+      <p class="toggle-text">
+        {{ esRegistro ? '¿Ya tienes cuenta?' : '¿No tienes cuenta?' }}
+        <a (click)="toggleModo()" class="toggle-link">
+          {{ esRegistro ? 'Inicia sesión' : 'Regístrate' }}
+        </a>
+      </p>
     </mat-card-actions>
   </mat-card>
 </div>

@@ -21,3 +21,40 @@
   font-size: 14px;
   text-align: center;
 }
+
+mat-card-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px !important;
+  letter-spacing: 3px;
+  color: gold;
+  text-align: center;
+}
+
+mat-card-subtitle {
+  text-align: center;
+  margin-top: 8px;
+}
+
+mat-card-actions {
+  flex-direction: column;
+  gap: 12px;
+  padding: 0 16px 16px !important;
+}
+
+.toggle-text {
+  font-size: 13px;
+  color: #666;
+  text-align: center;
+  margin: 0;
+}
+
+.toggle-link {
+  color: #1a237e;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+
+  &:hover {
+    color: #283593;
+  }
+}

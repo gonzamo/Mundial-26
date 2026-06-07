@@ -27,6 +27,7 @@ export class LoginComponent {
   username = '';
   password = '';
   error = '';
+  esRegistro = false;
 
   constructor(
     private authService: AuthService,
@@ -34,15 +35,31 @@ export class LoginComponent {
   ) {}
 
   login(): void {
-    this.authService.login({ username: this.username, password: this.password })
-      .subscribe({
-        next: (res) => {
-          this.authService.guardarToken(res.token);
-          this.router.navigate(['/grupos']);
-        },
-        error: () => {
-          this.error = 'Usuario o contraseña incorrectos';
-        }
-      });
+    if (!this.username || !this.password) {
+      this.error = 'Completa todos los campos';
+      return;
+    }
+
+    const obs = this.esRegistro
+      ? this.authService.registro({ username: this.username, password: this.password })
+      : this.authService.login({ username: this.username, password: this.password });
+
+    obs.subscribe({
+      next: (res) => {
+        this.authService.guardarToken(res.token);
+        this.router.navigate(['/grupos']);
+      },
+      error: () => {
+        this.error = this.esRegistro
+          ? 'El usuario ya existe'
+          : 'Usuario o contraseña incorrectos';
+      }
+    });
   }
+
+  toggleModo(): void {
+    this.esRegistro = !this.esRegistro;
+    this.error = '';
+  }
+
 }

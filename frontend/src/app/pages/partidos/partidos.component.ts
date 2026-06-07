@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
 import { MatChipsModule } from '@angular/material/chips';
 import { PartidoService } from '../../services/partido.service';
@@ -8,7 +9,7 @@ import { Partido } from '../../models/partido.model';
 @Component({
   selector: 'app-partidos',
   standalone: true,
-  imports: [CommonModule, MatCardModule, MatChipsModule],
+  imports: [CommonModule, FormsModule, MatCardModule, MatChipsModule],
   templateUrl: './partidos.component.html',
   styleUrl: './partidos.component.scss'
 })
@@ -16,6 +17,7 @@ export class PartidosComponent implements OnInit {
 
   partidos: Partido[] = [];
   fases: string[] = [];
+  filtro = '';
 
   constructor(private partidoService: PartidoService) {}
 
@@ -29,8 +31,17 @@ export class PartidosComponent implements OnInit {
     });
   }
 
+  get partidosFiltrados(): Partido[] {
+    if (!this.filtro.trim()) return this.partidos;
+    const term = this.filtro.toLowerCase();
+    return this.partidos.filter(p =>
+      p.equipoLocal.pais.toLowerCase().includes(term) ||
+      p.equipoVisitante.pais.toLowerCase().includes(term)
+    );
+  }
+
   filtrarPorFase(fase: string): Partido[] {
-    return this.partidos.filter(p => p.fase === fase);
+    return this.partidosFiltrados.filter(p => p.fase === fase);
   }
 
   getEstadoClass(estado: string): string {

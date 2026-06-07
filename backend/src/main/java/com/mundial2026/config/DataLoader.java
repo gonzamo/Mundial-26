@@ -7,6 +7,7 @@ import com.mundial2026.model.entity.Estadio;
 import com.mundial2026.model.entity.Grupo;
 import com.mundial2026.model.entity.Jugador;
 import com.mundial2026.model.entity.Partido;
+import com.mundial2026.model.entity.Usuario;
 import com.mundial2026.model.enums.EstadoPartido;
 import com.mundial2026.model.enums.FasePartido;
 import com.mundial2026.model.enums.PosicionJugador;
@@ -15,6 +16,7 @@ import com.mundial2026.repository.EstadioRepository;
 import com.mundial2026.repository.GrupoRepository;
 import com.mundial2026.repository.JugadorRepository;
 import com.mundial2026.repository.PartidoRepository;
+import com.mundial2026.repository.UsuarioRepository;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -34,6 +36,8 @@ public class DataLoader implements CommandLineRunner {
     private final EstadioRepository estadioRepository;
     private final JugadorRepository jugadorRepository;
     private final PartidoRepository partidoRepository;
+    private final UsuarioRepository usuarioRepository;
+    private final org.springframework.security.crypto.password.PasswordEncoder passwordEncoder;
     private final ObjectMapper objectMapper;
 
     @Override
@@ -52,6 +56,10 @@ public class DataLoader implements CommandLineRunner {
 
         if (partidoRepository.count() == 0) {
             cargarPartidos();
+        }
+
+        if (usuarioRepository.count() == 0) {
+            cargarUsuarios();
         }
 
         log.info("¡Verificación de datos completada!");
@@ -156,4 +164,11 @@ public class DataLoader implements CommandLineRunner {
     }
     log.info("Partidos cargados.");
 }
-}
+
+private void cargarUsuarios() {
+    Usuario admin = new Usuario();
+    admin.setUsername("admin");
+    admin.setPassword(passwordEncoder.encode("1234"));
+    usuarioRepository.save(admin);
+    log.info("Usuario admin/1234 creado.");
+}}

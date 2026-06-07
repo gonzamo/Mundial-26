@@ -14,6 +14,10 @@ export class AuthService {
     return this.http.post<AuthResponse>(`${this.apiUrl}/login`, credentials);
   }
 
+  registro(credentials: LoginRequest): Observable<AuthResponse> {
+    return this.http.post<AuthResponse>(`${this.apiUrl}/registro`, credentials);
+  }
+
   guardarToken(token: string): void {
     localStorage.setItem('token', token);
   }

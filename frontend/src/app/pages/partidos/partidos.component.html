@@ -1,6 +1,19 @@
 <div class="partidos-container">
   <h1>Partidos del Mundial 2026</h1>
 
+  <div class="search-bar">
+    <input
+      type="text"
+      placeholder="Buscar selección..."
+      [(ngModel)]="filtro"
+      class="search-input"
+    />
+  </div>
+
+  <div *ngIf="partidosFiltrados.length === 0 && filtro.trim()" class="sin-partidos">
+    <p>No se encontraron partidos</p>
+  </div>
+
   <div *ngFor="let fase of fases" class="fase-section">
     <h2 class="fase-titulo">{{ fase }}</h2>
 
