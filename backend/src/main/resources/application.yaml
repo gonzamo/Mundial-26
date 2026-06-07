@@ -17,6 +17,10 @@ spring:
   output:
     ansi:
       enabled: always
-
 server:
   port: 8080
+
+logging:
+  level:
+    com.mundial2026: DEBUG
+    org.springframework.web: DEBUG

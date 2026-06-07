@@ -46,5 +46,7 @@ Una aplicación backend que permite consultar y gestionar toda la información d
 - ✅ Documentación Swagger/OpenAPI integrada
 - ✅ Dependencias JWT añadidas
 - ✅ Carga inicial de todos los datos mediante JSON
+- ✅ Creación del frontend con Angular (guards, interceptors, models, pages y services)
+- ✅ Maquetación visual de la página (grupos, equipos y partidos)
 
 ---

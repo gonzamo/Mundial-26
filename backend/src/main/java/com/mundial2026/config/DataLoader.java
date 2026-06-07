@@ -39,18 +39,22 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        // Solo carga si la base de datos está vacía
-        if (grupoRepository.count() > 0) {
-            log.info("La base de datos ya tiene datos, omitiendo carga inicial.");
-            return;
+        log.info("Verificando datos del Mundial 2026...");
+
+        if (grupoRepository.count() == 0) {
+            cargarGruposYEquipos();
+            cargarEstadios();
         }
 
-        log.info("Cargando datos del Mundial 2026...");
-        cargarGruposYEquipos();
-        cargarEstadios();
-        cargarJugadores();
-        cargarPartidos();
-        log.info("¡Datos cargados correctamente!");
+        if (jugadorRepository.count() == 0) {
+            cargarJugadores();
+        }
+
+        if (partidoRepository.count() == 0) {
+            cargarPartidos();
+        }
+
+        log.info("¡Verificación de datos completada!");
     }
 
     private void cargarGruposYEquipos() throws Exception {

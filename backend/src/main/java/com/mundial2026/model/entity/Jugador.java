@@ -1,5 +1,6 @@
 package com.mundial2026.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.mundial2026.model.enums.PosicionJugador;
 
 import jakarta.persistence.Column;
@@ -54,6 +55,7 @@ public class Jugador {
     @Column(nullable = false)
     private int asistencias;
 
+    @JsonIgnore
     @ManyToOne
     @JoinColumn(name = "equipo_id")
     private Equipo equipo;

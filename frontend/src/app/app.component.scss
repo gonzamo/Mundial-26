@@ -1,0 +1,63 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+  height: 60px;
+  background: linear-gradient(135deg, #1a237e, #283593);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.brand-text {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: gold;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 8px;
+
+  a {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 6px;
+    transition: all 0.2s;
+
+    &:hover {
+      color: white;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    &.active {
+      color: white;
+      background: rgba(255, 255, 255, 0.15);
+    }
+  }
+}
+
+.logout-btn {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.75);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  padding: 6px 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    color: white;
+    border-color: white;
+    background: rgba(255, 255, 255, 0.1);
+  }
+}

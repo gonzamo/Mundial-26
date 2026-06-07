@@ -1,0 +1,17 @@
+<div class="grupos-container">
+  <h1> Mundial 2026 — Grupos</h1>
+
+  <div class="grupos-grid">
+    <mat-card *ngFor="let grupo of grupos" class="grupo-card">
+      <mat-card-header>
+        <mat-card-title>Grupo {{ grupo.letra }}</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div *ngFor="let equipo of grupo.equipos" class="equipo-row">
+          <img [src]="equipo.escudoURL" [alt]="equipo.pais" class="escudo">
+          <span>{{ equipo.pais }}</span>
+        </div>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</div>

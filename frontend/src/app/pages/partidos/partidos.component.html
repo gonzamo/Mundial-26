@@ -1,0 +1,40 @@
+<div class="partidos-container">
+  <h1>Partidos del Mundial 2026</h1>
+
+  <div *ngFor="let fase of fases" class="fase-section">
+    <h2 class="fase-titulo">{{ fase }}</h2>
+
+    <div class="partidos-grid">
+      <mat-card *ngFor="let partido of filtrarPorFase(fase)" class="partido-card">
+        <mat-card-content>
+          <div class="partido-row">
+            <div class="equipo-info local">
+              <img [src]="partido.equipoLocal.escudoURL" [alt]="partido.equipoLocal.pais" class="escudo">
+              <span class="equipo-nombre">{{ partido.equipoLocal.pais }}</span>
+            </div>
+
+            <div class="marcador">
+              <span class="goles">{{ partido.golesLocal }}</span>
+              <span class="separador">-</span>
+              <span class="goles">{{ partido.golesVisitante }}</span>
+            </div>
+
+            <div class="equipo-info visitante">
+              <span class="equipo-nombre">{{ partido.equipoVisitante.pais }}</span>
+              <img [src]="partido.equipoVisitante.escudoURL" [alt]="partido.equipoVisitante.pais" class="escudo">
+            </div>
+          </div>
+
+          <div class="partido-detalles">
+            <span class="detalle">{{ partido.estadio.nombre }} · {{ partido.fecha | date:'dd/MM/yyyy HH:mm' }}</span>
+            <span class="estado-badge" [ngClass]="getEstadoClass(partido.estado)">{{ partido.estado }}</span>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <div *ngIf="filtrarPorFase(fase).length === 0" class="sin-partidos">
+      <p>No hay partidos en esta fase</p>
+    </div>
+  </div>
+</div>

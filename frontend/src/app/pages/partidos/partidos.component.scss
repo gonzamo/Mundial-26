@@ -1,0 +1,133 @@
+.partidos-container {
+  padding: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    margin-bottom: 32px;
+    font-size: 28px;
+    font-weight: 500;
+    color: #1a237e;
+  }
+}
+
+.fase-section {
+  margin-bottom: 40px;
+
+  .fase-titulo {
+    font-size: 20px;
+    font-weight: 500;
+    color: #283593;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #e8eaf6;
+    text-transform: capitalize;
+  }
+}
+
+.partidos-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.partido-card {
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08) !important;
+  border: 1px solid #e8eaf6 !important;
+
+  mat-card-content {
+    padding: 16px !important;
+  }
+}
+
+.partido-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.equipo-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+
+  &.local { justify-content: flex-end; }
+  &.visitante { justify-content: flex-start; }
+
+  .equipo-nombre {
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    white-space: nowrap;
+  }
+
+  .escudo {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+    flex-shrink: 0;
+  }
+}
+
+.marcador {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 20px;
+  background: linear-gradient(135deg, #1a237e, #283593);
+  border-radius: 10px;
+  flex-shrink: 0;
+
+  .goles {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    min-width: 28px;
+    text-align: center;
+  }
+
+  .separador {
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
+
+.partido-detalles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #f0f0f0;
+
+  .detalle {
+    font-size: 13px;
+    color: #888;
+  }
+
+  .estado-badge {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .estado-programado { background: #e3f2fd; color: #1565c0; }
+  .estado-enjuego { background: #fff3e0; color: #e65100; }
+  .estado-finalizado { background: #e8f5e9; color: #2e7d32; }
+}
+
+.sin-partidos {
+  text-align: center;
+  padding: 24px;
+  color: #999;
+  font-style: italic;
+}
